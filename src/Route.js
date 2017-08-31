@@ -10,8 +10,8 @@ class Routes extends Component {
     render(){
         return(
             <Router history={hashHistory}>
-                <Route path="/" component={App}/>
-                <Route path="/table" component={Table}/>
+                <Route path={process.env.PUBLIC_URL + '/'} component={App}/>
+                <Route path={process.env.PUBLIC_URL + '/table'} component={Table}/>
             </Router>
         );
     };
