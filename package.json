@@ -16,8 +16,9 @@
     "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "gh-pages": "^1.0.0",
     "react-router": "^3.0.5",
-    "react-virtual-scrolling": "^1.0.0"
+    "react-virtual-scrolling": "^1.1.0"
   }
 }

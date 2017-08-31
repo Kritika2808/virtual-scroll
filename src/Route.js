@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {Router, Route, hashHistory} from 'react-router';
 // Import custom components
 import App from './App';
-import Table from './Table';
+import List from './List';
 
 class Routes extends Component {
 
@@ -11,7 +11,7 @@ class Routes extends Component {
         return(
             <Router history={hashHistory}>
                 <Route path={process.env.PUBLIC_URL + '/'} component={App}/>
-                <Route path={process.env.PUBLIC_URL + '/table'} component={Table}/>
+                <Route path={process.env.PUBLIC_URL + '/list'} component={List}/>
             </Router>
         );
     };
